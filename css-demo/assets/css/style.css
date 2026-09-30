@@ -20,3 +20,28 @@ html {
   white-space: nowrap;
   width: 1px;
 }
+
+/* -------- Global Styles --------*/
+
+body{
+  font-family: "Oxanium", sans-serif;
+  margin:0;
+}
+
+header.primary{
+  background-color:#3b6b8b;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 1px 1px #000000;
+
+}
+
+header.primary a{
+  color:#fff;
+  text-decoration:none;
+}
+
+header.primary h1{
+  font-size:2.4rem;
+  margin:0;
+}
