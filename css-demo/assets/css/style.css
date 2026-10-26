@@ -57,6 +57,9 @@ img{
 body{
   font-family: "Oxanium", sans-serif;
   margin:0;
+  background-image:url("../img/church.webp");
+  background-repeat: no-repeat;
+  background-size:cover;
 }
 
 header.primary{
