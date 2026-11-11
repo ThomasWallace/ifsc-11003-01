@@ -57,9 +57,6 @@ img{
 body{
   font-family: "Oxanium", sans-serif;
   margin:0;
-  background-image:url("../img/church.webp");
-  background-repeat: no-repeat;
-  background-size:cover;
 }
 
 header.primary{
@@ -78,6 +75,11 @@ header.primary{
   padding: 40px 40px 20px 40px;
   /* T/B | L/R */
   padding: 20px 40px;
+  background-image: url("../img/church.webp");
+}
+
+#page-about header.primary{
+    background-image: url("../img/tim.jpg");
 }
 
 header.primary a{
